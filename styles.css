@@ -158,35 +158,63 @@ body {
     color: var(--cor-de-fundo);
 }
 
+/* RESPONSIVIDADE MOBILE */
 @media screen and (max-width: 768px) {
 
     .container {
-        display: block;
-        background-image: none;
+    display: block;
+    background-image: none;
     }
 
    .container__imagem {
-        width: 50vw;
+    width: 50vw;
    }
 
    .container__caixa {
-        margin: 2em 2em;
+    margin: 2em 2em;
    }
 
    .secundario {
-        margin: 0;
-        text-align: center;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 0em;
    }
 
    .secundario__imagem {
-        width: 50vw;
+    width: 70vw;
+    padding-bottom: 2em;
    }
 
    .dispositivos__lista {
-        display: block;
+    display: block;
+   }
+
+   .lista__item img {
+    width: 60vw;
    }
 
    .rodape__lista {
-        display: block;
+    display: block;
+   }
+
+   .rodape__texto {
+    display: block;
+    padding: 1.2em 2em;
+   }
+
+   .lista__link a {
+    font-size: 18px;
+   }
+
+   .descricao__titulo {
+    font-size: 30px;
+   }
+
+   .dispositivos__titulo {
+    font-size: 36px;
+   }
+
+   .lista__item h3 {
+    font-size: 24px;
    }
 }
