@@ -160,60 +160,21 @@ body {
 
 /* RESPONSIVIDADE MOBILE */
 @media screen and (max-width: 1180px) {
-   .container {
-    display: block;
-    background-image: none;
+
+    .principal, .container, .dispositivos, .dispositivos__lista, .rodape, .rodape__lista{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 10% 0;
+        height: 80%;
     }
 
-   .container__imagem {
-    width: 50vw;
-   }
+    .rodape__logo{
+        width: 40%;
+        margin: 2em auto;
+    }
 
-   .container__caixa {
-    margin: 2em 2em;
-   }
-
-   .secundario {
-    margin: 0;
-    text-align: center;
-    padding-bottom: 0em;
-   }
-
-   .secundario__imagem {
-    width: 70vw;
-    padding-bottom: 2em;
-   }
-
-   .dispositivos__lista {
-    display: block;
-   }
-
-   .lista__item img {
-    width: 60vw;
-   }
-
-   .rodape__lista {
-    display: block;
-   }
-
-   .rodape__texto {
-    display: block;
-    padding: 1.2em 2em;
-   }
-
-   .lista__link a {
-    font-size: 18px;
-   }
-
-   .descricao__titulo {
-    font-size: 30px;
-   }
-
-   .dispositivos__titulo {
-    font-size: 36px;
-   }
-
-   .lista__item h3 {
-    font-size: 24px;
-   }
+    .container__caixa{
+        margin: 0;
+    }
 }
