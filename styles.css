@@ -160,8 +160,7 @@ body {
 
 /* RESPONSIVIDADE MOBILE */
 @media screen and (max-width: 1180px) {
-
-    .container {
+   .container {
     display: block;
     background-image: none;
     }
